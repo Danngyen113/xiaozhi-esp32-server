@@ -1,0 +1,20 @@
+WORKING BASELINE - 2026-04-03
+
+Server:
+- xiaozhi-server chạy bằng Docker
+- working folder: main/xiaozhi-server
+
+Network:
+- LAN IP: 192.168.1.7
+- OTA: http://192.168.1.7:8003/xiaozhi/ota/
+- WebSocket: ws://192.168.1.7:8000/xiaozhi/v1/
+
+Providers:
+- ASR: GroqASR
+- LLM: DeepSeekLLM
+- TTS: current default working
+
+Status:
+- ESP32 connected successfully
+- ASR -> LLM -> TTS end-to-end working
+- DeepSeek billing fixed and tested OK
